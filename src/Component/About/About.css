@@ -1,0 +1,30 @@
+.About {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f242d;
+    padding: 1rem 5% 2rem;
+}
+.AboutImage {
+    width: 60%;
+}
+.AboutImage img {
+    width: 100%;
+    height: 80vh;
+}
+.AboutContent {
+    width: 30%;
+    padding-left: 30px;
+}
+.About .secondary-color {
+    font-size: 60px;
+    color: #ebca56;
+    font-weight: 600;
+    cursor: default;
+}
+
+.AboutContent span {
+    font-size: 60px;
+}
