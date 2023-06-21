@@ -1,10 +1,10 @@
 .About {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    color: #1f242d;
+    color: #14bdad;
     padding: 1rem 5% 2rem;
     background-image: url('../../../public/AboutImage.jpg');
     background-repeat: no-repeat;

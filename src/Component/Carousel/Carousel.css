@@ -1,0 +1,29 @@
+/* .CarouselWrapper {
+    height: 140px;
+    width: 700px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.Carousel button {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    height: 48px;
+    margin-top: -24px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 48px;
+    z-index: 4000;
+}
+.Carousel img {
+    background: transparent;
+    background-size: auto;
+    background-size: 80px;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 140px;
+    min-width: 140px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 100%;
+} */
