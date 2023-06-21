@@ -1,5 +1,5 @@
 .Home {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -26,6 +26,9 @@
 }
 .HomeContent h1 {
     font-size: 60px;
+}
+.HomeContent h2 {
+    font-weight: 500;
 }
 .Home .button {
     background-color: #14bdad;
