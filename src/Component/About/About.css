@@ -6,9 +6,10 @@
     align-items: center;
     color: #14bdad;
     padding: 1rem 8% 2rem;
-    background-image: url('../../../public/AboutImage.jpg');
+    background-image: url('../../../public/AboutImage.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
     color: white;
 }
 .AboutContent {
