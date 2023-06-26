@@ -4,7 +4,7 @@ import "@fontsource/poppins";
 import Navbar from './Component/Navbar/Navbar';
 import Home from './Component/Home/Home';
 import About from './Component/About/About';
-// import Portfolio from './Component/Portfolio/Portfolio';
+import Contact from './Component/Contact/Contact';
 import Service from './Component/Services/Service';
 function Apps() {
   return (
@@ -13,6 +13,7 @@ function Apps() {
       <Home />
       <About />
       <Service />
+      <Contact />
     </div>
   );
 }
