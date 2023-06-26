@@ -12,12 +12,7 @@
     position:fixed;
     background-color: white;
 }
-.Navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.Navbar .primary-color {
+#Navbar .primary-color {
     font-size: 2rem;
     color: #14bdad;
     font-weight: 600;
@@ -30,13 +25,16 @@
     padding-right: 30px;
 }
 .button {
+    background-color: #14bdad;
+    border: none;
+    border-radius: 45px;
+    border:solid #14bdad;
     color: white;
-    padding: 10px 24px;
+    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 16px;
-    margin-left: 50px;
+    margin: 15px 2px;
     cursor: pointer;
-    border-left: solid #1f242d;
 }

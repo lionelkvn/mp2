@@ -5,26 +5,25 @@ import ServiceCard from '../ServiceCard/ServiceCard';
 const Service = () => {
   const services = [
     {
-      title: 'Web Development',
-      description: 'We build beautiful and responsive websites tailored to your needs.',
-      imageUrl: './img1.jpg'
+      title: 'Logo & Brand Identity',
+      description: 'Work in harmony to create a strong and cohesive brand presence. They communicate our brands values, differentiate us from competitors, and resonate with our target audience. Our logo and brand identity are the visual embodiment of our brands promise, ensuring that every interaction with our brand leaves a lasting impression.',
+      imageUrl: './img5.jpg'
     },
     {
-      title: 'Graphic Design',
-      description: 'Our creative designers can bring your ideas to life with stunning visuals.',
-      imageUrl: './img2.jpg'
+      title: 'Print Design',
+      description: 'Create visually stunning and effective print materials that capture attention, convey information, and leave a memorable impression on the audience. It combines artistic creativity, technical expertise, and a deep understanding of design principles to produce tangible and impactful designs that fulfill their intended purpose.',
+      imageUrl: './img4.jpg'
     },
     {
-      title: 'Graphic Design',
-      description: 'Our creative designers can bring your ideas to life with stunning visuals.',
-      imageUrl: './img3.jpg'
+      title: 'Marketing Design',
+      description: 'Target audience demographics, brand values, and marketing objectives. It involves a blend of creativity, strategic thinking, and an understanding of design principles to create visually appealing materials that resonate with the intended audience, convey key messages, and drive desired actions.',
+      imageUrl: './img13.jpg'
     },
-    // Add more service objects as needed
   ];
 
   return (
-    <div className="services-page">
-      <h1>Our Services</h1>
+    <div className="Services">
+      <h1><span class="primary-color">Our</span> Services</h1>
       <div className="service-card-container">
         {services.map((service, index) => (
           <ServiceCard
