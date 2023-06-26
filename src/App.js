@@ -6,6 +6,7 @@ import Home from './Component/Home/Home';
 import About from './Component/About/About';
 import Contact from './Component/Contact/Contact';
 import Service from './Component/Services/Service';
+
 function Apps() {
   return (
     <div>
