@@ -1,0 +1,25 @@
+.main_slider {
+    padding-top: 1rem;
+}
+.carousel .slider-wrapper {
+    width: 100%;
+}
+.carousel .thumb {
+    
+}
+.carousel {
+    text-align: center;
+}
+.carousel-status .p {
+    visibility: hidden;
+    text-shadow: none;
+}
+.carousel-status {
+    visibility: hidden;
+} 
+.carousel .control-arrow {
+    visibility: hidden;
+}
+.carousel-root.main_slider {
+    width: 100%;
+}
