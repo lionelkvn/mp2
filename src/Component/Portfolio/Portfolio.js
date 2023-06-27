@@ -84,7 +84,7 @@ const Portfolio = () => {
     },
   ];
   const carouselTitle1 = 'The Surya Event Project!';
-  const carouselTitle2 = 'BrowClinic Beauty Academy Bundle Design!';
+  const carouselTitle2 = 'BrowClinic Beauty Academy Project!';
   const carouselTitle3 = 'Luminescence Branding!';
   const carouselTitle4 = 'Pamela Duron Bundle Design!';
   return (

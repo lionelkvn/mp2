@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 2rem 8%;
+    padding: 4rem 8% 8rem;
   }
   
   .Portfolio h1 {
@@ -34,6 +34,7 @@
   .Portfolio h2 {
     font-size: 30px;
     margin-bottom: 1rem;
+    text-align: center;
   }
   
   @media (max-width: 768px) {
