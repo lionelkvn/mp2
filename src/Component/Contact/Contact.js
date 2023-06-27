@@ -6,7 +6,7 @@ const Contact = () => {
         <div id="Contact" class="Contact">
             <h1>Love to hear from you,</h1>
             <h1>Get in touch.</h1>
-            <div class="Contactcontent">
+            <div class="Contact-wrapper">
                 <div class="Contactcontent1">
                     <form action="/action_page.php">
                     <label for="name">Name</label>
