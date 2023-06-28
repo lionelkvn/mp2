@@ -4,11 +4,13 @@
     align-items: center;
     width: 100%;
     padding: 4rem 8% 8rem;
+    background-color: #1f242d;
   }
   
   .Portfolio h1 {
     font-size: 50px;
     padding-bottom: 1rem;
+    color: white;
   }
   
   .Portfolio .primary-color {
@@ -35,6 +37,7 @@
     font-size: 30px;
     margin-bottom: 1rem;
     text-align: center;
+    color: white;
   }
   
   @media (max-width: 768px) {

@@ -9,11 +9,11 @@ const Navbar = () => {
             <h1><span class="primary-color">Ink</span><span>novative</span></h1>       
             <div className="Navbar">
                 <Anchor direction="horizontal" targetOffset="60">
-                <Link href="#Home" title="Home"/>
-                <Link href="#About" title="About" />
-                <Link href="#Services" title="Services" />
-                <Link href="#Portfolio" title="Portfolio" />
-                <Link href="#Contact" title="Contact" />
+                <div><Link href="#Home" title="Home"/></div>
+                <div><Link href="#About" title="About" /></div>
+                <div><Link href="#Services" title="Services" /></div>
+                <div><Link href="#Portfolio" title="Portfolio" /></div>
+                <div><Link href="#Contact" title="Contact" /></div>
                 </Anchor>
             </div>
             <div><a href="#" class="button">Sign In</a></div> 
