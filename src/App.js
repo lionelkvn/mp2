@@ -5,7 +5,7 @@ import Navbar from './Component/Navbar/Navbar';
 import Home from './Component/Home/Home';
 import About from './Component/About/About';
 import Contact from './Component/Contact/Contact';
-// import CarouselSlider from './Component/CarouselSlider/CarouselSlider';
+import ServicesOffer from './Component/ServicesOffer/ServicesOffer';
 import Portfolio from './Component/Portfolio/Portfolio';
 import Service from './Component/Services/Service';
 
@@ -16,7 +16,7 @@ function Apps() {
       <Home />
       <About />
       <Service />
-      {/* <CarouselSlider /> */}
+      <ServicesOffer />
       <Portfolio />
       <Contact />
     </div>

@@ -1,0 +1,19 @@
+.ServicesOffer {
+    padding: 2rem 8% 2rem;
+    width: 75%;
+}
+.ServicesOffer .CarouselContainer {
+    width: 90%;
+    max-width: 1200px;
+  }
+.ServicesOffer h1 {
+    color: #1f242d;
+    padding-top: 2rem;
+}
+.ServicesOffer h2 {
+    color: #14bdad;
+    padding-bottom: 1rem;
+}
+.packageContainer {
+    padding: 2rem 5% 2rem;
+}
