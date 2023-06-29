@@ -42,41 +42,49 @@ const carouselItemsLogo = [
   const serviceOfferLogoPremiumPackageRev = "Unlimited / REVISIONS";
   const serviceOfferLogoPremiumPackageDays = "3 days of delivery";
 
-    return(
-        <div id="ServicesOffer" class="ServicesOffer">
-                <div class="ServicesOfferContent Container">
-                      <div class="CarouselContainer">
-                      <h1>{serviceOfferCat}</h1>
-                      <h2>{carouselLogoTitle}</h2>
-                      <CarouselSlider items={carouselItemsLogo} />
-                      <h1>About This Service</h1>
-                                <div class="packageContainer Container">
-                                <h2>{serviceOfferLogoBasicTitle}</h2>
-                                <h3>{serviceOfferLogoBasicPackage}</h3>
-                                <h3>{serviceOfferLogoBasicPackageFormat}</h3>
-                                <h3>{serviceOfferLogoBasicPackageRev}</h3>
-                                <h3>{serviceOfferLogoBasicPackageDays}</h3>
-                                </div>
-                                <div class="packageContainer Container">
-                                <h2>{serviceOfferLogoStandardTitle}</h2>
-                                <h3>{serviceOfferLogoStandardPackage}</h3>
-                                <h3>{serviceOfferLogoStandardPackageFormat}</h3>
-                                <h3>{serviceOfferLogoStandardPackageRev}</h3>
-                                <h3>{serviceOfferLogoStandardPackageDays}</h3>
-                                </div>
-                                <div class="packageContainer Container">
-                                <h2>{serviceOfferLogoPremiumTitle}</h2>
-                                <h3>{serviceOfferLogoPremiumPackage}</h3>
-                                <h3>{serviceOfferLogoPremiumPackageFormat}</h3>
-                                <h3>{serviceOfferLogoPremiumPackageRev}</h3>
-                                <h3>{serviceOfferLogoPremiumPackageDays}</h3>
-                                </div>
-                      </div>
-                  <div class='ServiceOfferPackagePrices'>
-                      
-                  </div>
+  return(
+    <div id="ServicesOffer" class="ServicesOffer">
+          <div class="ServicesOfferContent">
+                <div class="CarouselContainer">
+                    <h1>{serviceOfferCat}</h1>
+                    <h2>{carouselLogoTitle}</h2>
+                    <CarouselSlider items={carouselItemsLogo} />
+                    <h1>About This Service</h1>
+                    <div class="packageContainer Container">
+                            <h2>{serviceOfferLogoBasicTitle}</h2>
+                            <h3>{serviceOfferLogoBasicPackage}</h3>
+                            <h3>{serviceOfferLogoBasicPackageFormat}</h3>
+                            <h3>{serviceOfferLogoBasicPackageRev}</h3>
+                            <h3>{serviceOfferLogoBasicPackageDays}</h3>
+                    </div>
+                    <div class="packageContainer Container">
+                            <h2>{serviceOfferLogoStandardTitle}</h2>
+                            <h3>{serviceOfferLogoStandardPackage}</h3>
+                            <h3>{serviceOfferLogoStandardPackageFormat}</h3>
+                            <h3>{serviceOfferLogoStandardPackageRev}</h3>
+                            <h3>{serviceOfferLogoStandardPackageDays}</h3>
+                    </div>
+                    <div class="packageContainer Container">
+                            <h2>{serviceOfferLogoPremiumTitle}</h2>
+                            <h3>{serviceOfferLogoPremiumPackage}</h3>
+                            <h3>{serviceOfferLogoPremiumPackageFormat}</h3>
+                            <h3>{serviceOfferLogoPremiumPackageRev}</h3>
+                            <h3>{serviceOfferLogoPremiumPackageDays}</h3>
+                    </div>
                 </div>
-        </div>
+                <div class='ServiceOfferPackagePrices-wrapper'>
+                        <div class="ServiceOfferPackagePrices">
+                            <span>Basic</span>
+                            <span>Standard</span>
+                            <span>Premium</span>
+                        </div>
+                        <div>
+                          <p>asdasdasdas
+                          </p>
+                        </div>
+                </div>
+          </div>
+      </div>
     );
 }
 export default ServicesOffer;
