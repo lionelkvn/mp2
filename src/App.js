@@ -1,25 +1,20 @@
 import './App.css';
 import React from 'react';
 import "@fontsource/poppins";
-import Navbar from './Component/Navbar/Navbar';
-import Home from './Component/Home/Home';
-import About from './Component/About/About';
-import Contact from './Component/Contact/Contact';
-// import CarouselSlider from './Component/CarouselSlider/CarouselSlider';
-import Portfolio from './Component/Portfolio/Portfolio';
-import Service from './Component/Services/Service';
+import { Routes, Route } from "react-router-dom";
+import Signin from './pages/Signin';
+import Homepage from './pages/Homepage';
+
+
 
 function Apps() {
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Service />
-      {/* <CarouselSlider /> */}
-      <Portfolio />
-      <Contact />
-    </div>
+    <>
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/signin" element={<Signin />} />
+    </Routes>
+    </>
   );
 }
 
