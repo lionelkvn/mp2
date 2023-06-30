@@ -5,10 +5,10 @@ import Navbar from './Component/Navbar/Navbar';
 import Home from './Component/Home/Home';
 import About from './Component/About/About';
 import Contact from './Component/Contact/Contact';
-// import ServicesOffer from './Component/ServicesOffer/ServicesOffer';
 import Portfolio from './Component/Portfolio/Portfolio';
 import Service from './Component/Services/Service';
 import ServicesOfferLogo from './Component/ServicesOfferLogo/ServicesOfferLogo';
+import ServicesOfferBrochure1 from './Component/ServiceOfferBrochure1/ServiceOfferBrochure1';
 function Apps() {
   return (
     <div>
@@ -17,6 +17,7 @@ function Apps() {
       <About />
       <Service />
       <ServicesOfferLogo />
+      <ServicesOfferBrochure1 />
       <Portfolio />
       <Contact />
     </div>

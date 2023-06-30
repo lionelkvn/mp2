@@ -1,3 +1,4 @@
+
 .ServicesOffer {
     padding: 1rem 5% 1rem;
     width: 100%;
@@ -41,8 +42,8 @@
     width: 65%;
     flex-basis: 65%;
   }
-
-
+  
+  
   .ServiceOfferPackagePrices {
     display: flex;
     justify-content: space-evenly;
