@@ -1,0 +1,59 @@
+.package-price.container {
+  margin-top: 100px;
+  border: 1px solid #ccc;
+}
+
+.package-option-wrapper {
+  padding: 10px;
+}
+
+.package-option {
+  padding: 1.2rem 10%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  z-index: 9999;
+  background-color: white;
+}
+
+.package-option:last-child {
+  margin-right: 0;
+}
+
+.package-option:hover {
+  background-color: #f5f5f5;
+}
+
+.package-option.selected {
+  background-color: #14bdad;
+  color: #fff;
+}
+
+.package-text {
+  margin-top: 20px;
+  padding: 1rem 5% 1rem;
+}
+
+.package-text h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.package-text p {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .package-option {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .package-option:last-child {
+    margin-bottom: 0;
+  }
+
+  .package-text {
+    padding: 1rem 5%;
+  }
+}
