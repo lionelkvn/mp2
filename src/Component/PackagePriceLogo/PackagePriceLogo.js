@@ -64,7 +64,7 @@ const PackagePriceLogo = () => {
         </div>
       )}
       <div className="continue-button">
-        <span>Continue</span>
+      <span><a  href='/purchase'>Continue</a></span>
       </div>
     </div>
   );
