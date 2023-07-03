@@ -62,7 +62,7 @@ const PackagePriceBrochure = () => {
         </div>
       )}
       <div className="continue-button">
-        <span>Continue</span>
+      <span> <a href='/purchasebrochure'> Continue</a></span>
       </div>
     </div>
   );
